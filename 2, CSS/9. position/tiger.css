@@ -1,0 +1,84 @@
+@import url('../../common.css');
+
+/* base style */
+body {
+    background: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: '굴림', 'Gulim', serif;
+}
+
+header {
+    background: darkblue;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #cc0;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+h1 strong {
+    font-size: 3em;
+    color: white;
+}
+h1 span {
+    font-size: 1.5em;
+}
+h1 em {
+    font-size: 2em;
+    color: #ccc;
+}
+/* end header style */
+
+/* begin container style */
+.container {
+    margin: 0 10%;
+    background: #ccc;
+}
+.container .menu {
+    margin-top: 20px;
+    float: left;
+    width: 20%;
+}
+.container .menu li {
+    padding: 5px;
+    margin-left: 10px;
+}
+.container .menu li a {
+    text-decoration: underline;
+}
+.container .menu li a:hover{
+    color: #662;
+    border-bottom: #662;
+}
+.content h2 {
+    background: #800;
+    font-size: 30px;
+    color: #ee0;
+    width: 80%;
+    font-weight: bold;
+    font-family: cursive, '궁서';
+    text-indent: 25px;
+    float: right;
+}
+.content p {
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+    background: white;
+    float: right;
+}
+
+/* footer style */
+footer {
+    width: 80%;
+    background: #aaa;
+    padding: 10px 20px;
+    margin: 0 10%;
+    margin-bottom: 5%;
+}

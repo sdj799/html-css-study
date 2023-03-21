@@ -11,37 +11,40 @@
 
     <style>
         section {
-            width: 600px;
-            margin: 20px auto;
-            border: 5px double #000;
-            background: gainsboro;
+            width: 800px;
+            margin: 20px auto 0;
+            border: 3px double #123456;
+            color: #333;
         }
-        h1 {
+        section h1 {
             text-align: center;
-            font-family: cursive;
-            font-size: 24px;
-            font-weight: bold;
-            margin: 10px 0;
+            font: bold 42px cursive, sans-serif;
+            padding: 20px;
+            background: #ccc;
         }
-        .intor {
+        section .intro {
             background: black;
             color: white;
-            font-weight: bold;
+            font-size: 18px;
             text-align: center;
-            padding: 5px 0px;
-            margin: 0;
+            border-bottom: 3px solid gray;
+            padding: 10px;
         }
-        .intor em {
+        .intro em {
             color: yellow;
+            font-size: 1.1em;
         }
-        .gallery {
+        section .gallery {
             background: gray;
         }
         .gallery >li {
             float: left;
             width: 23.75%;
-            height: 200px;
-            margin: 10px 0 10px 1%;
+            height: 330px;
+            border: 1px solid #ccc;
+            padding: 3px ;
+            box-sizing: border-box;
+            margin: 20px 0 20px 1%;
             
         }
         #tulip {
@@ -57,25 +60,28 @@
             background: yellow;
         }
         h2 {
-            width: 90%;
-            height: 40%;
-            margin: 5px auto;
+            height: 150px;
+            border: 1px solid lightgray;
+            background: #fff;
         }
         #tulip h2 {
-            background: url(./images/tulip.jpg) no-repeat center / contain;
+            background: url(./images/tulip.jpg) no-repeat center / cover;
         }
         #jebi h2 {
-            background: url(./images/jebi.jpg) no-repeat center / contain;
+            background: url(./images/jebi.jpg) no-repeat center / cover;
         }
         #pumpkin h2 {
-            background: url(./images/hobak.jpg) no-repeat center / contain;
+            background: url(./images/hobak.jpg) no-repeat center / cover;
         }
         #sunflower h2 {
-            background: url(./images/sunflower.jpg) no-repeat center / contain;
+            background: url(./images/sunflower.jpg) no-repeat center / cover;
         }
         ul > li > p {
             font-size: 15px;
-            margin: 10px;
+            margin: 15px;
+            line-height: 1.3;
+            font-weight: bold;
+            color: #000;
         }
         .clearfix::after {
             content: '';
@@ -86,9 +92,9 @@
 </head>
 <body>
     
-    <section class="clearfix">
+    <section>
         <h1>나의 아름다운 정원</h1>
-        <p class="intor">
+        <p class="intro">
             사람들은 아마 자신에게 <em>자신감을 북돋워 주는</em>
             표정있는 꽃들을 선호할 것이다.
         </p>
