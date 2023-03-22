@@ -1,0 +1,139 @@
+@import url(../../common.css);
+
+body {
+    background: #aaa;
+    font-size: 14px;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto 5%;
+}
+/* header style */
+header {
+    background: #fa0;
+    text-align: center;
+}
+header h1 {
+    color: #fff;
+    padding: 10px;
+    font-size: 5em;
+    font-weight: bold;
+}
+header h1 span {
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+header .stit {
+    background: #ccc;
+    color: #333;
+    padding: 5px 0;
+}
+/* container style */
+.container {
+    background: #fff;
+}
+.container .side-menu {
+    width: 25%;
+    float: left;
+}
+.container .side-menu h3 {
+    background-color: darkred;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: bold;
+}
+.container .side-menu li {
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.container .side-menu li:hover {
+    border-bottom: 1px dashed #000;
+}
+/* main-content */
+.main-content {
+    background: #ddd;
+    color: #123456;
+    width: 50%;
+    float: left;
+}
+.main-content .art-piece {
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+.main-content .art-piece .title {
+    background: #123456;
+    color: #fff;
+    padding: 5px;
+}
+.main-content .art-piece .title a:hover {
+    text-decoration: underline;
+}
+.main-content .art-piece .artist {
+    margin: 20px 0;
+}
+.main-content .art-piece .detail {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+/* banner */
+.banner {
+    float: left;
+    width: 25%;
+    font-weight: bold;
+}
+.banner h3 {
+    font-size: 1.1em;
+    color: #333;
+    padding: 20px 10px;
+}
+.banner .all {
+    margin-bottom: 10px;
+    color: gray;
+    text-decoration: underline;
+    display: block;
+}
+.banner .love {
+    margin-bottom: 10px;
+    color: #fa0;
+    text-decoration: underline;
+    display: block;
+}
+.banner strong {
+    margin-bottom: 10px;
+    display: block;
+}
+.link{
+    padding: 0 10px;
+}
+.link li {
+    margin-bottom: 15px;
+}
+.link a {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+.link span {
+    font-weight: 400;
+    display: block;
+    margin: 5px 0;
+}
+footer {
+    padding: 5px;
+    background: #123456;
+}
+footer address {
+    color: #eee;
+    font-size: 12px;
+    text-align: center;
+}
+footer address a {
+    text-decoration: underline;
+}
